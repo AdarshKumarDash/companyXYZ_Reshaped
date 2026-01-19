@@ -6,7 +6,7 @@ const AboutSection = () => {
       icon: Target,
       title: "Our Purpose",
       description:
-        "SynLab exists to reimagine how innovation, learning, and technology come together to solve real-world challenges in an accessible and meaningful way.",
+        "CompanyXYZ exists to reimagine how innovation, learning, and technology come together to solve real-world challenges in an accessible and meaningful way.",
     },
     {
       icon: Rocket,
