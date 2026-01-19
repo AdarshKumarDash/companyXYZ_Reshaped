@@ -25,7 +25,7 @@ const Footer = () => {
           </div>
           
           <p className="text-muted-foreground text-sm">
-            © 2024 SynLab. All rights reserved.
+            © 2026 SynLab™ By Team Innovexa. All rights reserved.
           </p>
         </div>
       </div>
