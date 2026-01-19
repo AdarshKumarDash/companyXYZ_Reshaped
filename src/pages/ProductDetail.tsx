@@ -16,19 +16,19 @@ const ProductDetail = () => {
     tagline: "The Portable Lab",
     description:
       "The first portable smart laboratory in our ecosystem. SynLab revolutionizes hands-on learning by providing a complete, modular lab experience that travels with you. Designed for safety, accessibility, and affordability.",
-    price: 299.99,
-    originalPrice: 399.99,
+    price: 3999,
+    originalPrice: 4999,
     discount: 25,
     rating: 4.8,
     reviewCount: 124,
     image: synlabProduct,
     features: [
       "Compact & portable design",
-      "50+ built-in experiments",
       "AI-powered dashboard integration",
       "Real-time data visualization",
       "Safety-first engineering",
       "Modular & expandable",
+      "Upgradable"
     ],
   };
 
@@ -40,14 +40,6 @@ const ProductDetail = () => {
       comment:
         "SynLab has transformed how we teach practical science. Students are more engaged than ever!",
       date: "2 weeks ago",
-    },
-    {
-      name: "Michael Rodriguez",
-      role: "Home Educator",
-      rating: 5,
-      comment:
-        "Perfect for homeschooling. Safe, easy to use, and my kids love the experiments.",
-      date: "1 month ago",
     },
     {
       name: "Prof. James Williams",
@@ -170,10 +162,10 @@ const ProductDetail = () => {
               {/* Price */}
               <div className="flex items-baseline gap-4 mb-6">
                 <span className="text-4xl font-bold text-foreground">
-                  ${product.price.toFixed(2)}
+                  ₹{product.price.toFixed(2)}
                 </span>
                 <span className="text-xl text-muted-foreground line-through">
-                  ${product.originalPrice.toFixed(2)}
+                  ₹{product.originalPrice.toFixed(2)}
                 </span>
               </div>
 
@@ -235,7 +227,7 @@ const ProductDetail = () => {
               <div className="flex flex-wrap gap-6 mt-8 pt-8 border-t border-border">
                 <div className="flex items-center gap-2 text-muted-foreground">
                   <Shield className="w-5 h-5" />
-                  <span className="text-sm">2-Year Warranty</span>
+                  <span className="text-sm">1-Year Warranty</span>
                 </div>
                 <div className="flex items-center gap-2 text-muted-foreground">
                   <Truck className="w-5 h-5" />
