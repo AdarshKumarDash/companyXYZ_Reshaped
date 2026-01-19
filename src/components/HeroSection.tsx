@@ -17,7 +17,7 @@ const HeroSection = () => {
               Solutions
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-xl mx-auto lg:mx-0">
-              SynLab is building a new-age innovation ecosystem where safety, 
+              CompanyXYZ is building a new-age innovation ecosystem where safety, 
               accessibility, and affordability come together seamlessly.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
